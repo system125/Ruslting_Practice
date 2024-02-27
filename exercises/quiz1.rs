@@ -13,7 +13,6 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
 
 // Put your function here!
 // fn calculate_price_of_apples {
@@ -30,4 +29,12 @@ fn verify_test() {
     assert_eq!(80, price2);
     assert_eq!(41, price3);
     assert_eq!(65, price4);
+}
+
+fn calculate_price_of_apples(num_of_apple:i64)->i64{
+    if num_of_apple <= 40 {
+        2*num_of_apple
+    }else{
+        1*num_of_apple
+    }
 }
